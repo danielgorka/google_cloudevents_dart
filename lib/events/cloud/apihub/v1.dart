@@ -1,3 +1,16 @@
+export '../../../src/events/cloud/apihub/v1/data.pbenum.dart'
+    show
+        LintState,
+        Linter,
+        Severity,
+        Attribute_DefinitionType,
+        Attribute_Scope,
+        Attribute_DataType,
+        OpenApiSpecDetails_Format,
+        Dependency_State,
+        Dependency_DiscoveryMode,
+        DependencyErrorDetail_Error,
+        ApiHubInstance_State;
 export '../../../src/events/cloud/apihub/v1/data.pb.dart'
     show
         Api,
@@ -37,19 +50,6 @@ export '../../../src/events/cloud/apihub/v1/data.pb.dart'
         HostProjectRegistrationEventData,
         ApiHubInstanceEventData,
         RuntimeProjectAttachmentEventData;
-export '../../../src/events/cloud/apihub/v1/data.pbenum.dart'
-    show
-        LintState,
-        Linter,
-        Severity,
-        Attribute_DefinitionType,
-        Attribute_Scope,
-        Attribute_DataType,
-        OpenApiSpecDetails_Format,
-        Dependency_State,
-        Dependency_DiscoveryMode,
-        DependencyErrorDetail_Error,
-        ApiHubInstance_State;
 export '../../../src/events/cloud/apihub/v1/events.pb.dart'
     show
         ApiCreatedEvent,

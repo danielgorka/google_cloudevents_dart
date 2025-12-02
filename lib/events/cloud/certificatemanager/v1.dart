@@ -1,3 +1,13 @@
+export '../../../src/events/cloud/certificatemanager/v1/data.pbenum.dart'
+    show
+        ServingState,
+        CertificateIssuanceConfig_KeyAlgorithm,
+        Certificate_Scope,
+        Certificate_ManagedCertificate_State,
+        Certificate_ManagedCertificate_ProvisioningIssue_Reason,
+        Certificate_ManagedCertificate_AuthorizationAttemptInfo_State,
+        Certificate_ManagedCertificate_AuthorizationAttemptInfo_FailureReason,
+        CertificateMapEntry_Matcher;
 export '../../../src/events/cloud/certificatemanager/v1/data.pb.dart'
     show
         CertificateIssuanceConfig_CertificateAuthorityConfig_CertificateAuthorityServiceConfig,
@@ -19,16 +29,6 @@ export '../../../src/events/cloud/certificatemanager/v1/data.pb.dart'
         CertificateMapEntryEventData,
         CertificateMapEventData,
         CertificateEventData;
-export '../../../src/events/cloud/certificatemanager/v1/data.pbenum.dart'
-    show
-        ServingState,
-        CertificateIssuanceConfig_KeyAlgorithm,
-        Certificate_Scope,
-        Certificate_ManagedCertificate_State,
-        Certificate_ManagedCertificate_ProvisioningIssue_Reason,
-        Certificate_ManagedCertificate_AuthorizationAttemptInfo_State,
-        Certificate_ManagedCertificate_AuthorizationAttemptInfo_FailureReason,
-        CertificateMapEntry_Matcher;
 export '../../../src/events/cloud/certificatemanager/v1/events.pb.dart'
     show
         CertificateCreatedEvent,

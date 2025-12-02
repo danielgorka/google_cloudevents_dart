@@ -1,3 +1,5 @@
+export '../../../src/events/cloud/scheduler/v1/data.pbenum.dart'
+    show HttpMethod, Job_State;
 export '../../../src/events/cloud/scheduler/v1/data.pb.dart'
     show
         SchedulerJobData,
@@ -10,7 +12,5 @@ export '../../../src/events/cloud/scheduler/v1/data.pb.dart'
         Job,
         RetryConfig,
         JobEventData;
-export '../../../src/events/cloud/scheduler/v1/data.pbenum.dart'
-    show HttpMethod, Job_State;
 export '../../../src/events/cloud/scheduler/v1/events.pb.dart'
     show JobCreatedEvent, JobUpdatedEvent, JobDeletedEvent, JobExecutedEvent;

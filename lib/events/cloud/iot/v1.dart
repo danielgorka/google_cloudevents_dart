@@ -1,3 +1,12 @@
+export '../../../src/events/cloud/iot/v1/data.pbenum.dart'
+    show
+        MqttState,
+        HttpState,
+        LogLevel,
+        GatewayType,
+        GatewayAuthMethod,
+        PublicKeyCertificateFormat,
+        PublicKeyFormat;
 export '../../../src/events/cloud/iot/v1/data.pb.dart'
     show
         Device,
@@ -16,15 +25,6 @@ export '../../../src/events/cloud/iot/v1/data.pb.dart'
         DeviceState,
         DeviceEventData,
         RegistryEventData;
-export '../../../src/events/cloud/iot/v1/data.pbenum.dart'
-    show
-        MqttState,
-        HttpState,
-        LogLevel,
-        GatewayType,
-        GatewayAuthMethod,
-        PublicKeyCertificateFormat,
-        PublicKeyFormat;
 export '../../../src/events/cloud/iot/v1/events.pb.dart'
     show
         CreateDeviceEvent,

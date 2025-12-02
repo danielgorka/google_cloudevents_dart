@@ -1,3 +1,5 @@
+export '../../../../src/events/cloud/beyondcorp/appconnectors/v1/data.pbenum.dart'
+    show HealthStatus, AppConnector_State;
 export '../../../../src/events/cloud/beyondcorp/appconnectors/v1/data.pb.dart'
     show
         ResourceInfo,
@@ -5,8 +7,6 @@ export '../../../../src/events/cloud/beyondcorp/appconnectors/v1/data.pb.dart'
         AppConnector_PrincipalInfo,
         AppConnector,
         AppConnectorEventData;
-export '../../../../src/events/cloud/beyondcorp/appconnectors/v1/data.pbenum.dart'
-    show HealthStatus, AppConnector_State;
 export '../../../../src/events/cloud/beyondcorp/appconnectors/v1/events.pb.dart'
     show
         AppConnectorCreatedEvent,

@@ -1,3 +1,14 @@
+export '../../../src/events/cloud/dataflow/v1beta3/data.pbenum.dart'
+    show
+        JobType,
+        FlexResourceSchedulingGoal,
+        TeardownPolicy,
+        DefaultPackageSet,
+        AutoscalingAlgorithm,
+        WorkerIPAddressConfiguration,
+        ShuffleMode,
+        JobState,
+        SdkVersion_SdkSupportStatus;
 export '../../../src/events/cloud/dataflow/v1beta3/data.pb.dart'
     show
         Environment,
@@ -19,16 +30,5 @@ export '../../../src/events/cloud/dataflow/v1beta3/data.pb.dart'
         JobExecutionInfo,
         JobExecutionStageInfo,
         JobEventData;
-export '../../../src/events/cloud/dataflow/v1beta3/data.pbenum.dart'
-    show
-        JobType,
-        FlexResourceSchedulingGoal,
-        TeardownPolicy,
-        DefaultPackageSet,
-        AutoscalingAlgorithm,
-        WorkerIPAddressConfiguration,
-        ShuffleMode,
-        JobState,
-        SdkVersion_SdkSupportStatus;
 export '../../../src/events/cloud/dataflow/v1beta3/events.pb.dart'
     show JobStatusChangedEvent;

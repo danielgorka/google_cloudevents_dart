@@ -1,3 +1,16 @@
+export '../../../src/events/cloud/deploy/v1/data.pbenum.dart'
+    show
+        SkaffoldSupportState,
+        BackoffMode,
+        ExecutionConfig_ExecutionEnvironmentUsage,
+        Release_RenderState,
+        Release_TargetRender_TargetRenderState,
+        Release_TargetRender_FailureCause,
+        Rollout_ApprovalState,
+        Rollout_State,
+        Rollout_FailureCause,
+        Phase_State,
+        Job_State;
 export '../../../src/events/cloud/deploy/v1/data.pb.dart'
     show
         DeliveryPipeline,
@@ -77,19 +90,6 @@ export '../../../src/events/cloud/deploy/v1/data.pb.dart'
         ReleaseEventData,
         RolloutEventData,
         AutomationEventData;
-export '../../../src/events/cloud/deploy/v1/data.pbenum.dart'
-    show
-        SkaffoldSupportState,
-        BackoffMode,
-        ExecutionConfig_ExecutionEnvironmentUsage,
-        Release_RenderState,
-        Release_TargetRender_TargetRenderState,
-        Release_TargetRender_FailureCause,
-        Rollout_ApprovalState,
-        Rollout_State,
-        Rollout_FailureCause,
-        Phase_State,
-        Job_State;
 export '../../../src/events/cloud/deploy/v1/events.pb.dart'
     show
         DeliveryPipelineCreatedEvent,

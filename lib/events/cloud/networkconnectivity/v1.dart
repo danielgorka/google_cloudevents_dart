@@ -1,3 +1,11 @@
+export '../../../src/events/cloud/networkconnectivity/v1/data.pbenum.dart'
+    show
+        Infrastructure,
+        ConnectionErrorType,
+        State,
+        ServiceConnectionMap_ConsumerPscConfig_State,
+        ServiceConnectionMap_ConsumerPscConnection_State,
+        ServiceConnectionPolicy_State;
 export '../../../src/events/cloud/networkconnectivity/v1/data.pb.dart'
     show
         ServiceConnectionMap_ProducerPscConfig,
@@ -22,14 +30,6 @@ export '../../../src/events/cloud/networkconnectivity/v1/data.pb.dart'
         HubEventData,
         SpokeEventData,
         ServiceConnectionPolicyEventData;
-export '../../../src/events/cloud/networkconnectivity/v1/data.pbenum.dart'
-    show
-        Infrastructure,
-        ConnectionErrorType,
-        State,
-        ServiceConnectionMap_ConsumerPscConfig_State,
-        ServiceConnectionMap_ConsumerPscConnection_State,
-        ServiceConnectionPolicy_State;
 export '../../../src/events/cloud/networkconnectivity/v1/events.pb.dart'
     show
         ServiceConnectionMapCreatedEvent,

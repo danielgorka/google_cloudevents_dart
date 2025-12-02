@@ -1,3 +1,19 @@
+export '../../../src/events/cloud/visionai/v1/data.pbenum.dart'
+    show
+        StreamAnnotationType,
+        RunMode,
+        ModelType,
+        AcceleratorType,
+        DataType,
+        Cluster_State,
+        RunStatus_State,
+        Application_State,
+        Application_BillingMode,
+        Processor_ProcessorType,
+        Processor_ProcessorState,
+        CustomProcessorSourceInfo_SourceType,
+        PersonBlurConfig_PersonBlurType,
+        Event_Clock;
 export '../../../src/events/cloud/visionai/v1/data.pb.dart'
     show
         StreamAnnotation,
@@ -60,22 +76,6 @@ export '../../../src/events/cloud/visionai/v1/data.pb.dart'
         ProcessEventData,
         StreamEventData,
         ApplicationEventData;
-export '../../../src/events/cloud/visionai/v1/data.pbenum.dart'
-    show
-        StreamAnnotationType,
-        RunMode,
-        ModelType,
-        AcceleratorType,
-        DataType,
-        Cluster_State,
-        RunStatus_State,
-        Application_State,
-        Application_BillingMode,
-        Processor_ProcessorType,
-        Processor_ProcessorState,
-        CustomProcessorSourceInfo_SourceType,
-        PersonBlurConfig_PersonBlurType,
-        Event_Clock;
 export '../../../src/events/cloud/visionai/v1/events.pb.dart'
     show
         AnalysisCreatedEvent,

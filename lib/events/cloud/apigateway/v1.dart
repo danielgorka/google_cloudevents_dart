@@ -1,3 +1,5 @@
+export '../../../src/events/cloud/apigateway/v1/data.pbenum.dart'
+    show Api_State, ApiConfig_State, Gateway_State;
 export '../../../src/events/cloud/apigateway/v1/data.pb.dart'
     show
         Api,
@@ -9,8 +11,6 @@ export '../../../src/events/cloud/apigateway/v1/data.pb.dart'
         GatewayEventData,
         ApiConfigEventData,
         ApiEventData;
-export '../../../src/events/cloud/apigateway/v1/data.pbenum.dart'
-    show Api_State, ApiConfig_State, Gateway_State;
 export '../../../src/events/cloud/apigateway/v1/events.pb.dart'
     show
         GatewayCreatedEvent,
